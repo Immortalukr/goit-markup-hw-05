@@ -33,7 +33,7 @@
  <section class="bc-fon ">
     <div class="container">
         <h1 class="head-hero">effective solutions for your business</h1>
-        <button type="button" class="btn-hero">Order service</button>
+        <button type="button" class="btn-hero" data-modal-open>Order service</button>
     </div>
 </section>
 <!-- section about company -->
@@ -230,6 +230,7 @@
     </ul>
   </div>
 </section>
+<!-- customers -->
 <section class="section">
     <div class="container">
         <h2 class="head-customer">Customers</h2>
@@ -280,6 +281,7 @@
     </div>
 </section>
 </main>
+<!-- footer -->
     <footer class="footer"> 
     <div class="container flex-footer">
       <div>
@@ -323,5 +325,15 @@
       </div>
     </div>
     </footer>
+    <div class="backdrop-modal is-hidden" data-modal>
+        <div class="modal-page">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg width="8" height="8">
+                    <use href="./images/icon/not-optimize/symbol-defs.svg#icon-close-btn"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
